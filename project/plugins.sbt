@@ -5,5 +5,5 @@ libraryDependencies += "org.scala-sbt" % "scripted-plugin" % sbtVersion.value
 addSbtPlugin("com.github.gseitz" % "sbt-release" % "1.0.11")
 
 // This project is its own plugin :)
-unmanagedSourceDirectories in Compile += baseDirectory.value.getParentFile / "src" / "main" / "scala"
+//unmanagedSourceDirectories in Compile += baseDirectory.value.getParentFile / "src" / "main" / "scala"
 //unmanagedSourceDirectories in Compile += baseDirectory.value.getParentFile / "src" / "main" / "scala-sbt-0.13"
