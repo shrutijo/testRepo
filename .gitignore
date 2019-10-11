@@ -1,2 +1,7 @@
+target
+project/target
+.idea
+.idea_modules
+
 *.class
 *.log
