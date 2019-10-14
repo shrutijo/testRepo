@@ -137,9 +137,9 @@
 				</plugin>
 				<plugin>
 					<!-- https://mvnrepository.com/artifact/external.atlassian.jgitflow/jgitflow-maven-plugin -->
-					<groupId>com.amashchenko.maven.plugin</groupId>
-					<artifactId>gitflow-maven-plugin</artifactId>
-					<version>1.13.0</version>
+					<groupId>external.atlassian.jgitflow</groupId>
+					<artifactId>jgitflow-maven-plugin</artifactId>
+					<version>1.0-m5.1</version>
 					<dependencies>
 						<dependency>
 							<groupId>com.jcraft</groupId>
