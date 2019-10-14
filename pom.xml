@@ -2,13 +2,13 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.infocepts.sparkpoc</groupId>
   <artifactId>testRepo</artifactId>
-  <version>0.0.2-SNAPSHOT</version>
+  <version>0.0.1-SNAPSHOT</version>
   <name>testRepo</name>
   <description>Sample testRepo project</description>
   <scm>
- 	<connection>scm:git:ssh://git@github.com:shsk/${project.artifactId}.git</connection>
-	<developerConnection>scm:git:ssh://git@github.com:shsk/${project.artifactId}.git</developerConnection>
-	<url>ssh://git@github.com:shsk/${project.artifactId}.git</url>
+ 	<connection>scm:git:ssh://git@github.com:shrutijo/${project.artifactId}.git</connection>
+	<developerConnection>scm:git:ssh://git@github.com:shrutijo/${project.artifactId}.git</developerConnection>
+	<url>ssh://git@github.com:shrutijo/${project.artifactId}.git</url>
   	<tag>@{project.version}</tag> 
   </scm>
   <pluginRepositories>
@@ -165,7 +165,7 @@
 						<flowInitContext>
 						<!--You can customize your development branch name. Why? Because it's faster to type
 						'git push origin dvlp' than	'git push origin develop' ;-)-->
-						<developBranchName>development</developBranchName>
+						<developBranchName>dev</developBranchName>
 						<!-- You can also customize your tag prefixes -->
 						<versionTagPrefix />
 						</flowInitContext>
